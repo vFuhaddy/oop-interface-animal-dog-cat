@@ -40,7 +40,8 @@ public class Main {
 
 //TODO
 // 4. Add a new abstract method to Animal called legCount() (no implementation)
-// 5. Update all classes that implement Animal so that they adhere to the new contract.
+// 5. Update all classes that implement Animal so that they adhere to the new contract
+//    by implementing the legCount() method in each class. (Simply print number of legs)
 // 6. Update the loop so that the legCount( )is called for all animals.
 // 7. Run and check output.
 
