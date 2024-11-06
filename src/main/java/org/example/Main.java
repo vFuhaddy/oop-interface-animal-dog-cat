@@ -13,6 +13,7 @@ public class Main {
 
         Animal myDog = new Dog(); // Create a Dog object
         Animal myCat = new Cat();  // Create a Cat object
+        Animal myDuck = new Duck();
 
         // the call to method sound() will call the sound() method that
         // was declared for the class-type of the object.
@@ -25,6 +26,7 @@ public class Main {
         ArrayList<Animal> listOfAnimals  = new ArrayList<>();
         listOfAnimals.add(myDog);
         listOfAnimals.add(myCat);
+        listOfAnimals.add(myDuck);
         for (Animal animal : listOfAnimals) {
             animal.sound();
         }
